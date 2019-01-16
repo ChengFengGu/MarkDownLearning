@@ -71,4 +71,45 @@ http://www.runoob.com/
 
 ---
 
+#8、代码高亮
 
+- 代码高亮显示符号: `
+- 代码高亮显示符号：~
+
+##试一试
+```java
+    package com.example.demo;
+
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+    @SpringBootApplication
+    public class DemoApplication {
+
+        public static void main(String[] args) {
+            SpringApplication.run(DemoApplication.class, args);
+        }
+
+    }
+```
+
+在一段文字中的效果：`add { document.write("hello world");}`
+
+---
+
+#9、图片显示
+    1、图片的引用与显示：![用于图片的显示](图片url 图片title)
+    2、制作图片链接
+##试一试
+
+[![加载中。。。](https://p2.ssl.qhimgs1.com/bdr/594__/t015aae573913ea4772.jpg "图片")](http://www.runoob.com/)
+
+
+---
+
+#10、表格显示
+
+| TH1 | TH2 | TH3 |
+----|----|----
+|td1|td2|td3|
+|td4|td5|td6|
